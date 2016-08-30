@@ -1,0 +1,4501 @@
+[gd_scene load_steps=3 format=1]
+
+[ext_resource path="res://sprites/tileset-wesley.png" type="Texture" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="snow_path_top_left" type="Sprite" parent="."]
+
+transform/pos = Vector2( -40, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 7
+
+[node name="snow_path_bottom_left" type="Sprite" parent="."]
+
+transform/pos = Vector2( -40, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 59
+
+[node name="grass_patch_1" type="Sprite" parent="."]
+
+transform/pos = Vector2( -72, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 55
+
+[node name="grass_patch_307" type="Sprite" parent="."]
+
+transform/pos = Vector2( -24, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 426
+
+[node name="grass_patch_308" type="Sprite" parent="."]
+
+transform/pos = Vector2( -8, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 427
+
+[node name="grass_patch_309" type="Sprite" parent="."]
+
+transform/pos = Vector2( 8, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 428
+
+[node name="grass_patch_310" type="Sprite" parent="."]
+
+transform/pos = Vector2( 24, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 429
+
+[node name="grass_patch_311" type="Sprite" parent="."]
+
+transform/pos = Vector2( 40, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 430
+
+[node name="grass_patch_312" type="Sprite" parent="."]
+
+transform/pos = Vector2( 40, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 430
+
+[node name="grass_patch_67" type="Sprite" parent="."]
+
+transform/pos = Vector2( -120, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 420
+
+[node name="grass_patch_2" type="Sprite" parent="."]
+
+transform/pos = Vector2( -168, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 105
+
+[node name="grass_patch_3" type="Sprite" parent="."]
+
+transform/pos = Vector2( -152, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 106
+
+[node name="grass_patch_4" type="Sprite" parent="."]
+
+transform/pos = Vector2( -136, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 107
+
+[node name="grass_patch_5" type="Sprite" parent="."]
+
+transform/pos = Vector2( -120, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 108
+
+[node name="grass_patch_6" type="Sprite" parent="."]
+
+transform/pos = Vector2( -104, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 109
+
+[node name="grass_patch_7" type="Sprite" parent="."]
+
+transform/pos = Vector2( -88, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 110
+
+[node name="grass_patch_8" type="Sprite" parent="."]
+
+transform/pos = Vector2( -72, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 111
+
+[node name="grass_patch_9" type="Sprite" parent="."]
+
+transform/pos = Vector2( -56, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 112
+
+[node name="grass_patch_10" type="Sprite" parent="."]
+
+transform/pos = Vector2( -40, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 113
+
+[node name="grass_patch_11" type="Sprite" parent="."]
+
+transform/pos = Vector2( -24, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 114
+
+[node name="grass_patch_12" type="Sprite" parent="."]
+
+transform/pos = Vector2( -8, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 115
+
+[node name="grass_patch_13" type="Sprite" parent="."]
+
+transform/pos = Vector2( 8, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 116
+
+[node name="grass_patch_14" type="Sprite" parent="."]
+
+transform/pos = Vector2( 24, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 117
+
+[node name="grass_patch_15" type="Sprite" parent="."]
+
+transform/pos = Vector2( 40, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 118
+
+[node name="grass_patch_16" type="Sprite" parent="."]
+
+transform/pos = Vector2( 56, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 119
+
+[node name="grass_patch_17" type="Sprite" parent="."]
+
+transform/pos = Vector2( 72, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 120
+
+[node name="grass_patch_18" type="Sprite" parent="."]
+
+transform/pos = Vector2( 88, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 121
+
+[node name="grass_patch_19" type="Sprite" parent="."]
+
+transform/pos = Vector2( 104, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 122
+
+[node name="grass_patch_20" type="Sprite" parent="."]
+
+transform/pos = Vector2( 120, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 123
+
+[node name="grass_patch_21" type="Sprite" parent="."]
+
+transform/pos = Vector2( 136, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 124
+
+[node name="grass_patch_22" type="Sprite" parent="."]
+
+transform/pos = Vector2( 152, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 125
+
+[node name="grass_patch_23" type="Sprite" parent="."]
+
+transform/pos = Vector2( 168, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 126
+
+[node name="grass_patch_24" type="Sprite" parent="."]
+
+transform/pos = Vector2( 184, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 127
+
+[node name="grass_patch_25" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 128
+
+[node name="grass_patch_26" type="Sprite" parent="."]
+
+transform/pos = Vector2( 216, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 129
+
+[node name="grass_patch_27" type="Sprite" parent="."]
+
+transform/pos = Vector2( 232, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 130
+
+[node name="grass_patch_28" type="Sprite" parent="."]
+
+transform/pos = Vector2( 248, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 131
+
+[node name="grass_patch_29" type="Sprite" parent="."]
+
+transform/pos = Vector2( 264, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 132
+
+[node name="grass_patch_30" type="Sprite" parent="."]
+
+transform/pos = Vector2( 280, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 133
+
+[node name="grass_patch_31" type="Sprite" parent="."]
+
+transform/pos = Vector2( 296, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 134
+
+[node name="grass_patch_32" type="Sprite" parent="."]
+
+transform/pos = Vector2( 312, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 135
+
+[node name="grass_patch_33" type="Sprite" parent="."]
+
+transform/pos = Vector2( 328, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 136
+
+[node name="grass_patch_34" type="Sprite" parent="."]
+
+transform/pos = Vector2( 344, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 137
+
+[node name="grass_patch_35" type="Sprite" parent="."]
+
+transform/pos = Vector2( 360, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 138
+
+[node name="grass_patch_36" type="Sprite" parent="."]
+
+transform/pos = Vector2( 376, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 139
+
+[node name="grass_patch_37" type="Sprite" parent="."]
+
+transform/pos = Vector2( 392, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 140
+
+[node name="grass_patch_38" type="Sprite" parent="."]
+
+transform/pos = Vector2( 408, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 141
+
+[node name="grass_patch_39" type="Sprite" parent="."]
+
+transform/pos = Vector2( 424, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 142
+
+[node name="grass_patch_40" type="Sprite" parent="."]
+
+transform/pos = Vector2( 440, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 143
+
+[node name="grass_patch_41" type="Sprite" parent="."]
+
+transform/pos = Vector2( 456, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 144
+
+[node name="grass_patch_42" type="Sprite" parent="."]
+
+transform/pos = Vector2( 472, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 145
+
+[node name="grass_patch_43" type="Sprite" parent="."]
+
+transform/pos = Vector2( 488, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 146
+
+[node name="grass_patch_44" type="Sprite" parent="."]
+
+transform/pos = Vector2( 504, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 147
+
+[node name="grass_patch_45" type="Sprite" parent="."]
+
+transform/pos = Vector2( 520, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 148
+
+[node name="grass_patch_46" type="Sprite" parent="."]
+
+transform/pos = Vector2( 536, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 149
+
+[node name="grass_patch_47" type="Sprite" parent="."]
+
+transform/pos = Vector2( 552, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 150
+
+[node name="grass_patch_48" type="Sprite" parent="."]
+
+transform/pos = Vector2( 568, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 151
+
+[node name="grass_patch_49" type="Sprite" parent="."]
+
+transform/pos = Vector2( 584, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 152
+
+[node name="grass_patch_50" type="Sprite" parent="."]
+
+transform/pos = Vector2( 600, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 153
+
+[node name="grass_patch_51" type="Sprite" parent="."]
+
+transform/pos = Vector2( 616, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 154
+
+[node name="grass_patch_52" type="Sprite" parent="."]
+
+transform/pos = Vector2( 616, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 156
+
+[node name="grass_patch_53" type="Sprite" parent="."]
+
+transform/pos = Vector2( -168, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 157
+
+[node name="grass_patch_54" type="Sprite" parent="."]
+
+transform/pos = Vector2( -152, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 158
+
+[node name="grass_patch_55" type="Sprite" parent="."]
+
+transform/pos = Vector2( -136, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 159
+
+[node name="grass_patch_56" type="Sprite" parent="."]
+
+transform/pos = Vector2( -120, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 160
+
+[node name="grass_patch_57" type="Sprite" parent="."]
+
+transform/pos = Vector2( -104, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 161
+
+[node name="grass_patch_58" type="Sprite" parent="."]
+
+transform/pos = Vector2( -88, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 162
+
+[node name="grass_patch_59" type="Sprite" parent="."]
+
+transform/pos = Vector2( -72, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 163
+
+[node name="grass_patch_60" type="Sprite" parent="."]
+
+transform/pos = Vector2( -56, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 164
+
+[node name="grass_patch_61" type="Sprite" parent="."]
+
+transform/pos = Vector2( -40, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 165
+
+[node name="grass_patch_62" type="Sprite" parent="."]
+
+transform/pos = Vector2( -24, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 166
+
+[node name="grass_patch_63" type="Sprite" parent="."]
+
+transform/pos = Vector2( -8, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 167
+
+[node name="grass_patch_64" type="Sprite" parent="."]
+
+transform/pos = Vector2( 8, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 168
+
+[node name="grass_patch_65" type="Sprite" parent="."]
+
+transform/pos = Vector2( 24, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 169
+
+[node name="grass_patch_66" type="Sprite" parent="."]
+
+transform/pos = Vector2( 40, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 170
+
+[node name="grass_patch_68" type="Sprite" parent="."]
+
+transform/pos = Vector2( 56, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 171
+
+[node name="grass_patch_69" type="Sprite" parent="."]
+
+transform/pos = Vector2( 72, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 172
+
+[node name="grass_patch_70" type="Sprite" parent="."]
+
+transform/pos = Vector2( 88, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 173
+
+[node name="grass_patch_71" type="Sprite" parent="."]
+
+transform/pos = Vector2( 104, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 174
+
+[node name="grass_patch_72" type="Sprite" parent="."]
+
+transform/pos = Vector2( 120, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 175
+
+[node name="grass_patch_73" type="Sprite" parent="."]
+
+transform/pos = Vector2( 136, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 176
+
+[node name="grass_patch_74" type="Sprite" parent="."]
+
+transform/pos = Vector2( 152, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 177
+
+[node name="grass_patch_75" type="Sprite" parent="."]
+
+transform/pos = Vector2( 168, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 178
+
+[node name="grass_patch_76" type="Sprite" parent="."]
+
+transform/pos = Vector2( 184, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 179
+
+[node name="grass_patch_77" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 180
+
+[node name="grass_patch_78" type="Sprite" parent="."]
+
+transform/pos = Vector2( 216, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 181
+
+[node name="grass_patch_79" type="Sprite" parent="."]
+
+transform/pos = Vector2( 232, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 182
+
+[node name="grass_patch_80" type="Sprite" parent="."]
+
+transform/pos = Vector2( 248, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 183
+
+[node name="grass_patch_81" type="Sprite" parent="."]
+
+transform/pos = Vector2( 280, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 185
+
+[node name="grass_patch_83" type="Sprite" parent="."]
+
+transform/pos = Vector2( 296, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 186
+
+[node name="grass_patch_84" type="Sprite" parent="."]
+
+transform/pos = Vector2( 312, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 187
+
+[node name="grass_patch_85" type="Sprite" parent="."]
+
+transform/pos = Vector2( 328, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 188
+
+[node name="grass_patch_86" type="Sprite" parent="."]
+
+transform/pos = Vector2( 344, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 189
+
+[node name="grass_patch_87" type="Sprite" parent="."]
+
+transform/pos = Vector2( 360, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 190
+
+[node name="grass_patch_88" type="Sprite" parent="."]
+
+transform/pos = Vector2( 376, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 191
+
+[node name="grass_patch_89" type="Sprite" parent="."]
+
+transform/pos = Vector2( 392, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 192
+
+[node name="grass_patch_90" type="Sprite" parent="."]
+
+transform/pos = Vector2( 408, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 193
+
+[node name="grass_patch_91" type="Sprite" parent="."]
+
+transform/pos = Vector2( 424, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 194
+
+[node name="grass_patch_92" type="Sprite" parent="."]
+
+transform/pos = Vector2( 440, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 195
+
+[node name="grass_patch_93" type="Sprite" parent="."]
+
+transform/pos = Vector2( 456, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 196
+
+[node name="grass_patch_94" type="Sprite" parent="."]
+
+transform/pos = Vector2( 472, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 197
+
+[node name="grass_patch_95" type="Sprite" parent="."]
+
+transform/pos = Vector2( 488, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 198
+
+[node name="grass_patch_96" type="Sprite" parent="."]
+
+transform/pos = Vector2( 504, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 199
+
+[node name="grass_patch_97" type="Sprite" parent="."]
+
+transform/pos = Vector2( 520, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 200
+
+[node name="grass_patch_98" type="Sprite" parent="."]
+
+transform/pos = Vector2( 536, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 201
+
+[node name="grass_patch_99" type="Sprite" parent="."]
+
+transform/pos = Vector2( 552, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 202
+
+[node name="grass_patch_100" type="Sprite" parent="."]
+
+transform/pos = Vector2( 568, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 203
+
+[node name="grass_patch_101" type="Sprite" parent="."]
+
+transform/pos = Vector2( 584, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 204
+
+[node name="grass_patch_102" type="Sprite" parent="."]
+
+transform/pos = Vector2( 600, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 205
+
+[node name="grass_patch_103" type="Sprite" parent="."]
+
+transform/pos = Vector2( 616, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 206
+
+[node name="grass_patch_107" type="Sprite" parent="."]
+
+transform/pos = Vector2( -120, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 212
+
+[node name="grass_patch_108" type="Sprite" parent="."]
+
+transform/pos = Vector2( -104, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 213
+
+[node name="grass_patch_109" type="Sprite" parent="."]
+
+transform/pos = Vector2( -88, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 214
+
+[node name="grass_patch_110" type="Sprite" parent="."]
+
+transform/pos = Vector2( -72, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 215
+
+[node name="grass_patch_111" type="Sprite" parent="."]
+
+transform/pos = Vector2( -56, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 216
+
+[node name="grass_patch_112" type="Sprite" parent="."]
+
+transform/pos = Vector2( -40, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 217
+
+[node name="grass_patch_113" type="Sprite" parent="."]
+
+transform/pos = Vector2( -24, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 218
+
+[node name="grass_patch_114" type="Sprite" parent="."]
+
+transform/pos = Vector2( -8, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 219
+
+[node name="grass_patch_115" type="Sprite" parent="."]
+
+transform/pos = Vector2( 8, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 220
+
+[node name="grass_patch_116" type="Sprite" parent="."]
+
+transform/pos = Vector2( 24, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 221
+
+[node name="grass_patch_117" type="Sprite" parent="."]
+
+transform/pos = Vector2( 40, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 222
+
+[node name="grass_patch_118" type="Sprite" parent="."]
+
+transform/pos = Vector2( 56, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 223
+
+[node name="grass_patch_119" type="Sprite" parent="."]
+
+transform/pos = Vector2( 72, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 224
+
+[node name="grass_patch_120" type="Sprite" parent="."]
+
+transform/pos = Vector2( 88, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 225
+
+[node name="grass_patch_121" type="Sprite" parent="."]
+
+transform/pos = Vector2( 104, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 226
+
+[node name="grass_patch_122" type="Sprite" parent="."]
+
+transform/pos = Vector2( 120, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 227
+
+[node name="grass_patch_123" type="Sprite" parent="."]
+
+transform/pos = Vector2( 136, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 228
+
+[node name="grass_patch_124" type="Sprite" parent="."]
+
+transform/pos = Vector2( 152, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 229
+
+[node name="grass_patch_125" type="Sprite" parent="."]
+
+transform/pos = Vector2( 168, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 230
+
+[node name="grass_patch_126" type="Sprite" parent="."]
+
+transform/pos = Vector2( 184, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 231
+
+[node name="grass_patch_127" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 232
+
+[node name="grass_patch_128" type="Sprite" parent="."]
+
+transform/pos = Vector2( 216, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 233
+
+[node name="grass_patch_129" type="Sprite" parent="."]
+
+transform/pos = Vector2( 232, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 234
+
+[node name="grass_patch_130" type="Sprite" parent="."]
+
+transform/pos = Vector2( 248, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 235
+
+[node name="grass_patch_131" type="Sprite" parent="."]
+
+transform/pos = Vector2( 264, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 236
+
+[node name="grass_patch_132" type="Sprite" parent="."]
+
+transform/pos = Vector2( 280, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 237
+
+[node name="grass_patch_133" type="Sprite" parent="."]
+
+transform/pos = Vector2( 296, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 238
+
+[node name="grass_patch_134" type="Sprite" parent="."]
+
+transform/pos = Vector2( 312, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 239
+
+[node name="grass_patch_135" type="Sprite" parent="."]
+
+transform/pos = Vector2( 328, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 240
+
+[node name="grass_patch_136" type="Sprite" parent="."]
+
+transform/pos = Vector2( 344, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 241
+
+[node name="grass_patch_137" type="Sprite" parent="."]
+
+transform/pos = Vector2( 360, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 242
+
+[node name="grass_patch_138" type="Sprite" parent="."]
+
+transform/pos = Vector2( 376, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 243
+
+[node name="grass_patch_139" type="Sprite" parent="."]
+
+transform/pos = Vector2( 392, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 244
+
+[node name="grass_patch_140" type="Sprite" parent="."]
+
+transform/pos = Vector2( 408, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 245
+
+[node name="grass_patch_141" type="Sprite" parent="."]
+
+transform/pos = Vector2( 424, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 246
+
+[node name="grass_patch_142" type="Sprite" parent="."]
+
+transform/pos = Vector2( 440, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 247
+
+[node name="grass_patch_143" type="Sprite" parent="."]
+
+transform/pos = Vector2( 456, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 248
+
+[node name="grass_patch_144" type="Sprite" parent="."]
+
+transform/pos = Vector2( 472, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 249
+
+[node name="grass_patch_145" type="Sprite" parent="."]
+
+transform/pos = Vector2( 488, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 250
+
+[node name="grass_patch_146" type="Sprite" parent="."]
+
+transform/pos = Vector2( 504, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 251
+
+[node name="grass_patch_147" type="Sprite" parent="."]
+
+transform/pos = Vector2( 520, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 252
+
+[node name="grass_patch_148" type="Sprite" parent="."]
+
+transform/pos = Vector2( 536, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 253
+
+[node name="grass_patch_149" type="Sprite" parent="."]
+
+transform/pos = Vector2( 552, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 254
+
+[node name="grass_patch_150" type="Sprite" parent="."]
+
+transform/pos = Vector2( 568, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 255
+
+[node name="grass_patch_151" type="Sprite" parent="."]
+
+transform/pos = Vector2( 584, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 256
+
+[node name="grass_patch_152" type="Sprite" parent="."]
+
+transform/pos = Vector2( 600, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 257
+
+[node name="grass_patch_153" type="Sprite" parent="."]
+
+transform/pos = Vector2( 616, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 258
+
+[node name="grass_patch_104" type="Sprite" parent="."]
+
+transform/pos = Vector2( -168, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 209
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grass_patch_104"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_104/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_154" type="Sprite" parent="."]
+
+transform/pos = Vector2( -168, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 261
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grass_patch_154"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_154/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_155" type="Sprite" parent="."]
+
+transform/pos = Vector2( -152, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 262
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grass_patch_155"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_155/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_156" type="Sprite" parent="."]
+
+transform/pos = Vector2( -136, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 263
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grass_patch_156"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_156/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_157" type="Sprite" parent="."]
+
+transform/pos = Vector2( -120, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 264
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grass_patch_157"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_157/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_158" type="Sprite" parent="."]
+
+transform/pos = Vector2( -104, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 265
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grass_patch_158"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_158/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_159" type="Sprite" parent="."]
+
+transform/pos = Vector2( -104, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 265
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grass_patch_159"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_159/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_160" type="Sprite" parent="."]
+
+transform/pos = Vector2( -88, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 266
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grass_patch_160"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_160/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_161" type="Sprite" parent="."]
+
+transform/pos = Vector2( -72, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 267
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grass_patch_161"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_161/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_162" type="Sprite" parent="."]
+
+transform/pos = Vector2( -56, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 268
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grass_patch_162"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_162/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_163" type="Sprite" parent="."]
+
+transform/pos = Vector2( -40, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 269
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grass_patch_163"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_163/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_164" type="Sprite" parent="."]
+
+transform/pos = Vector2( -24, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 270
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grass_patch_164"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_164/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_165" type="Sprite" parent="."]
+
+transform/pos = Vector2( -8, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 271
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grass_patch_165"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_165/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_169" type="Sprite" parent="."]
+
+transform/pos = Vector2( 56, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 275
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grass_patch_169"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_169/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_170" type="Sprite" parent="."]
+
+transform/pos = Vector2( 72, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 276
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grass_patch_170"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_170/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_171" type="Sprite" parent="."]
+
+transform/pos = Vector2( 88, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 277
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grass_patch_171"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_171/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_172" type="Sprite" parent="."]
+
+transform/pos = Vector2( 104, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 278
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grass_patch_172"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_172/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_173" type="Sprite" parent="."]
+
+transform/pos = Vector2( 120, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 279
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grass_patch_173"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_173/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_174" type="Sprite" parent="."]
+
+transform/pos = Vector2( 136, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 280
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grass_patch_174"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_174/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_175" type="Sprite" parent="."]
+
+transform/pos = Vector2( 152, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 281
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grass_patch_175"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_175/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_176" type="Sprite" parent="."]
+
+transform/pos = Vector2( 168, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 282
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grass_patch_176"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_176/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_177" type="Sprite" parent="."]
+
+transform/pos = Vector2( 184, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 283
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grass_patch_177"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_177/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_182" type="Sprite" parent="."]
+
+transform/pos = Vector2( 264, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 288
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grass_patch_182"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_182/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_183" type="Sprite" parent="."]
+
+transform/pos = Vector2( 280, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 289
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grass_patch_183"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_183/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_204" type="Sprite" parent="."]
+
+transform/pos = Vector2( -168, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 313
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_204"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_204/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_254" type="Sprite" parent="."]
+
+transform/pos = Vector2( -168, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 365
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_254"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_254/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_255" type="Sprite" parent="."]
+
+transform/pos = Vector2( -152, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 366
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_255"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_255/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_256" type="Sprite" parent="."]
+
+transform/pos = Vector2( -136, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 367
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_256"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_256/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_298" type="Sprite" parent="."]
+
+transform/pos = Vector2( -168, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 417
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_298"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_298/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_299" type="Sprite" parent="."]
+
+transform/pos = Vector2( -152, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 418
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_299"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_299/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_300" type="Sprite" parent="."]
+
+transform/pos = Vector2( -136, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 419
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_300"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_300/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_301" type="Sprite" parent="."]
+
+transform/pos = Vector2( -104, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 421
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_301"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_301/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_302" type="Sprite" parent="."]
+
+transform/pos = Vector2( -88, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 422
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_302"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_302/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_303" type="Sprite" parent="."]
+
+transform/pos = Vector2( -72, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 423
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_303"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_303/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_304" type="Sprite" parent="."]
+
+transform/pos = Vector2( -56, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 424
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_304"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_304/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_305" type="Sprite" parent="."]
+
+transform/pos = Vector2( -40, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 425
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_305"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_305/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_313" type="Sprite" parent="."]
+
+transform/pos = Vector2( 56, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 431
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_313"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_313/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_314" type="Sprite" parent="."]
+
+transform/pos = Vector2( 72, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 432
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_314"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_314/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_315" type="Sprite" parent="."]
+
+transform/pos = Vector2( 88, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 433
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_315"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_315/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_316" type="Sprite" parent="."]
+
+transform/pos = Vector2( 120, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 435
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_316"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_316/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_317" type="Sprite" parent="."]
+
+transform/pos = Vector2( 104, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 434
+
+[node name="grass_patch_318" type="Sprite" parent="."]
+
+transform/pos = Vector2( 136, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 436
+
+[node name="grass_patch_319" type="Sprite" parent="."]
+
+transform/pos = Vector2( 152, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 437
+
+[node name="grass_patch_320" type="Sprite" parent="."]
+
+transform/pos = Vector2( 168, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 436
+
+[node name="grass_patch_321" type="Sprite" parent="."]
+
+transform/pos = Vector2( 184, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 437
+
+[node name="grass_patch_322" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 438
+
+[node name="grass_patch_323" type="Sprite" parent="."]
+
+transform/pos = Vector2( 216, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 439
+
+[node name="grass_patch_324" type="Sprite" parent="."]
+
+transform/pos = Vector2( 232, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 440
+
+[node name="grass_patch_325" type="Sprite" parent="."]
+
+transform/pos = Vector2( 248, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 441
+
+[node name="grass_patch_326" type="Sprite" parent="."]
+
+transform/pos = Vector2( 280, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 443
+
+[node name="grass_patch_259" type="Sprite" parent="."]
+
+transform/pos = Vector2( -88, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 370
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_259"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_259/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_260" type="Sprite" parent="."]
+
+transform/pos = Vector2( -56, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 372
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_260"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_260/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_262" type="Sprite" parent="."]
+
+transform/pos = Vector2( -40, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 373
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_262"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_262/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_263" type="Sprite" parent="."]
+
+transform/pos = Vector2( -24, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 374
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_263"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_263/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_264" type="Sprite" parent="."]
+
+transform/pos = Vector2( -8, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 375
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_264"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_264/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_265" type="Sprite" parent="."]
+
+transform/pos = Vector2( 8, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 376
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_265"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_265/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_268" type="Sprite" parent="."]
+
+transform/pos = Vector2( 56, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 379
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_268"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_268/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_269" type="Sprite" parent="."]
+
+transform/pos = Vector2( 72, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 380
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_269"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_269/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_270" type="Sprite" parent="."]
+
+transform/pos = Vector2( 88, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 381
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_270"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_270/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_271" type="Sprite" parent="."]
+
+transform/pos = Vector2( 104, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 382
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_271"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_271/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_272" type="Sprite" parent="."]
+
+transform/pos = Vector2( 120, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 383
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_272"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_272/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_273" type="Sprite" parent="."]
+
+transform/pos = Vector2( 136, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 384
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_273"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_273/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_274" type="Sprite" parent="."]
+
+transform/pos = Vector2( 152, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 385
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_274"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_274/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_275" type="Sprite" parent="."]
+
+transform/pos = Vector2( 168, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 386
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_275"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_275/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_276" type="Sprite" parent="."]
+
+transform/pos = Vector2( 184, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 387
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_276"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_276/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_282" type="Sprite" parent="."]
+
+transform/pos = Vector2( 264, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 392
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_282"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_282/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_283" type="Sprite" parent="."]
+
+transform/pos = Vector2( 264, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 392
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_283"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_283/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_284" type="Sprite" parent="."]
+
+transform/pos = Vector2( 280, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 393
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_284"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_284/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_292" type="Sprite" parent="."]
+
+transform/pos = Vector2( 280, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 393
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_292"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_292/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_285" type="Sprite" parent="."]
+
+transform/pos = Vector2( 296, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 394
+
+[node name="grass_patch_286" type="Sprite" parent="."]
+
+transform/pos = Vector2( 312, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 395
+
+[node name="grass_patch_287" type="Sprite" parent="."]
+
+transform/pos = Vector2( 328, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 396
+
+[node name="grass_patch_288" type="Sprite" parent="."]
+
+transform/pos = Vector2( 344, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 397
+
+[node name="grass_patch_289" type="Sprite" parent="."]
+
+transform/pos = Vector2( 360, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 398
+
+[node name="grass_patch_290" type="Sprite" parent="."]
+
+transform/pos = Vector2( 376, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 399
+
+[node name="grass_patch_291" type="Sprite" parent="."]
+
+transform/pos = Vector2( 392, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 400
+
+[node name="grass_patch_293" type="Sprite" parent="."]
+
+transform/pos = Vector2( 408, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 401
+
+[node name="grass_patch_294" type="Sprite" parent="."]
+
+transform/pos = Vector2( 424, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 402
+
+[node name="grass_patch_295" type="Sprite" parent="."]
+
+transform/pos = Vector2( 536, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 409
+
+[node name="grass_patch_296" type="Sprite" parent="."]
+
+transform/pos = Vector2( 552, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 410
+
+[node name="grass_patch_297" type="Sprite" parent="."]
+
+transform/pos = Vector2( 568, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 411
+
+[node name="grass_patch_277" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 388
+
+[node name="grass_patch_278" type="Sprite" parent="."]
+
+transform/pos = Vector2( 216, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 389
+
+[node name="grass_patch_279" type="Sprite" parent="."]
+
+transform/pos = Vector2( 232, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 390
+
+[node name="grass_patch_280" type="Sprite" parent="."]
+
+transform/pos = Vector2( 248, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 391
+
+[node name="grass_patch_281" type="Sprite" parent="."]
+
+transform/pos = Vector2( 248, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 391
+
+[node name="grass_patch_266" type="Sprite" parent="."]
+
+transform/pos = Vector2( 24, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 377
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_266"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_266/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_267" type="Sprite" parent="."]
+
+transform/pos = Vector2( 40, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 378
+
+[node name="grass_patch_261" type="Sprite" parent="."]
+
+transform/pos = Vector2( -72, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 371
+
+[node name="grass_patch_209" type="Sprite" parent="."]
+
+transform/pos = Vector2( -88, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 318
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_209"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_209/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_210" type="Sprite" parent="."]
+
+transform/pos = Vector2( -72, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 319
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_210"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_210/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_211" type="Sprite" parent="."]
+
+transform/pos = Vector2( -56, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 320
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_211"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_211/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_212" type="Sprite" parent="."]
+
+transform/pos = Vector2( -40, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 321
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_212"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_212/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_214" type="Sprite" parent="."]
+
+transform/pos = Vector2( -8, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 323
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_214"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_214/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_219" type="Sprite" parent="."]
+
+transform/pos = Vector2( 56, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 327
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_219"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_219/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_220" type="Sprite" parent="."]
+
+transform/pos = Vector2( 72, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 328
+
+[node name="grass_patch_221" type="Sprite" parent="."]
+
+transform/pos = Vector2( 88, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 329
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_221"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_221/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_222" type="Sprite" parent="."]
+
+transform/pos = Vector2( 104, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 330
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_222"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_222/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_223" type="Sprite" parent="."]
+
+transform/pos = Vector2( 120, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 331
+
+[node name="grass_patch_224" type="Sprite" parent="."]
+
+transform/pos = Vector2( 136, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 332
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_224"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_224/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_225" type="Sprite" parent="."]
+
+transform/pos = Vector2( 152, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 333
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_225"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_225/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_226" type="Sprite" parent="."]
+
+transform/pos = Vector2( 168, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 334
+
+[node name="grass_patch_227" type="Sprite" parent="."]
+
+transform/pos = Vector2( 184, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 335
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_227"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_227/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_232" type="Sprite" parent="."]
+
+transform/pos = Vector2( 264, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 340
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_232"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_232/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_233" type="Sprite" parent="."]
+
+transform/pos = Vector2( 280, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 341
+
+[node name="StaticBody2D1" type="StaticBody2D" parent="grass_patch_233"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_233/StaticBody2D1"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_234" type="Sprite" parent="."]
+
+transform/pos = Vector2( 296, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 342
+
+[node name="grass_patch_235" type="Sprite" parent="."]
+
+transform/pos = Vector2( 312, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 343
+
+[node name="grass_patch_236" type="Sprite" parent="."]
+
+transform/pos = Vector2( 328, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 344
+
+[node name="grass_patch_237" type="Sprite" parent="."]
+
+transform/pos = Vector2( 344, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 345
+
+[node name="grass_patch_238" type="Sprite" parent="."]
+
+transform/pos = Vector2( 360, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 346
+
+[node name="grass_patch_239" type="Sprite" parent="."]
+
+transform/pos = Vector2( 376, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 347
+
+[node name="grass_patch_240" type="Sprite" parent="."]
+
+transform/pos = Vector2( 392, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 348
+
+[node name="grass_patch_241" type="Sprite" parent="."]
+
+transform/pos = Vector2( 408, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 349
+
+[node name="grass_patch_242" type="Sprite" parent="."]
+
+transform/pos = Vector2( 424, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 350
+
+[node name="grass_patch_243" type="Sprite" parent="."]
+
+transform/pos = Vector2( 440, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 351
+
+[node name="grass_patch_244" type="Sprite" parent="."]
+
+transform/pos = Vector2( 456, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 352
+
+[node name="grass_patch_245" type="Sprite" parent="."]
+
+transform/pos = Vector2( 472, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 353
+
+[node name="grass_patch_246" type="Sprite" parent="."]
+
+transform/pos = Vector2( 488, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 354
+
+[node name="grass_patch_247" type="Sprite" parent="."]
+
+transform/pos = Vector2( 504, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 355
+
+[node name="grass_patch_248" type="Sprite" parent="."]
+
+transform/pos = Vector2( 520, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 356
+
+[node name="grass_patch_249" type="Sprite" parent="."]
+
+transform/pos = Vector2( 536, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 357
+
+[node name="grass_patch_250" type="Sprite" parent="."]
+
+transform/pos = Vector2( 552, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 358
+
+[node name="grass_patch_251" type="Sprite" parent="."]
+
+transform/pos = Vector2( 568, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 359
+
+[node name="grass_patch_252" type="Sprite" parent="."]
+
+transform/pos = Vector2( 584, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 360
+
+[node name="grass_patch_253" type="Sprite" parent="."]
+
+transform/pos = Vector2( 600, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 361
+
+[node name="grass_patch_228" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 336
+
+[node name="grass_patch_229" type="Sprite" parent="."]
+
+transform/pos = Vector2( 216, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 337
+
+[node name="grass_patch_230" type="Sprite" parent="."]
+
+transform/pos = Vector2( 232, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 338
+
+[node name="grass_patch_231" type="Sprite" parent="."]
+
+transform/pos = Vector2( 248, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 339
+
+[node name="grass_patch_205" type="Sprite" parent="."]
+
+transform/pos = Vector2( -152, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 314
+
+[node name="grass_patch_206" type="Sprite" parent="."]
+
+transform/pos = Vector2( -136, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 315
+
+[node name="grass_patch_207" type="Sprite" parent="."]
+
+transform/pos = Vector2( -120, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 316
+
+[node name="grass_patch_257" type="Sprite" parent="."]
+
+transform/pos = Vector2( -120, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 368
+
+[node name="grass_patch_258" type="Sprite" parent="."]
+
+transform/pos = Vector2( -104, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 369
+
+[node name="grass_patch_213" type="Sprite" parent="."]
+
+transform/pos = Vector2( -24, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 322
+
+[node name="grass_patch_215" type="Sprite" parent="."]
+
+transform/pos = Vector2( 8, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 324
+
+[node name="grass_patch_216" type="Sprite" parent="."]
+
+transform/pos = Vector2( 24, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 325
+
+[node name="grass_patch_217" type="Sprite" parent="."]
+
+transform/pos = Vector2( 40, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 326
+
+[node name="grass_patch_218" type="Sprite" parent="."]
+
+transform/pos = Vector2( 40, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 326
+
+[node name="grass_patch_208" type="Sprite" parent="."]
+
+transform/pos = Vector2( -104, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 317
+
+[node name="grass_patch_184" type="Sprite" parent="."]
+
+transform/pos = Vector2( 296, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 290
+
+[node name="grass_patch_185" type="Sprite" parent="."]
+
+transform/pos = Vector2( 312, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 291
+
+[node name="grass_patch_186" type="Sprite" parent="."]
+
+transform/pos = Vector2( 328, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 292
+
+[node name="grass_patch_187" type="Sprite" parent="."]
+
+transform/pos = Vector2( 344, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 293
+
+[node name="grass_patch_188" type="Sprite" parent="."]
+
+transform/pos = Vector2( 360, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 294
+
+[node name="grass_patch_189" type="Sprite" parent="."]
+
+transform/pos = Vector2( 376, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 295
+
+[node name="grass_patch_190" type="Sprite" parent="."]
+
+transform/pos = Vector2( 392, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 296
+
+[node name="grass_patch_191" type="Sprite" parent="."]
+
+transform/pos = Vector2( 408, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 297
+
+[node name="grass_patch_192" type="Sprite" parent="."]
+
+transform/pos = Vector2( 424, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 298
+
+[node name="grass_patch_193" type="Sprite" parent="."]
+
+transform/pos = Vector2( 440, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 299
+
+[node name="grass_patch_194" type="Sprite" parent="."]
+
+transform/pos = Vector2( 456, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 300
+
+[node name="grass_patch_195" type="Sprite" parent="."]
+
+transform/pos = Vector2( 472, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 301
+
+[node name="grass_patch_196" type="Sprite" parent="."]
+
+transform/pos = Vector2( 488, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 302
+
+[node name="grass_patch_197" type="Sprite" parent="."]
+
+transform/pos = Vector2( 504, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 303
+
+[node name="grass_patch_198" type="Sprite" parent="."]
+
+transform/pos = Vector2( 520, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 304
+
+[node name="grass_patch_199" type="Sprite" parent="."]
+
+transform/pos = Vector2( 536, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 305
+
+[node name="grass_patch_200" type="Sprite" parent="."]
+
+transform/pos = Vector2( 552, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 306
+
+[node name="grass_patch_201" type="Sprite" parent="."]
+
+transform/pos = Vector2( 568, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 307
+
+[node name="grass_patch_202" type="Sprite" parent="."]
+
+transform/pos = Vector2( 584, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 308
+
+[node name="grass_patch_203" type="Sprite" parent="."]
+
+transform/pos = Vector2( 600, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 309
+
+[node name="grass_patch_178" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 284
+
+[node name="grass_patch_179" type="Sprite" parent="."]
+
+transform/pos = Vector2( 216, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 285
+
+[node name="grass_patch_180" type="Sprite" parent="."]
+
+transform/pos = Vector2( 232, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 286
+
+[node name="grass_patch_181" type="Sprite" parent="."]
+
+transform/pos = Vector2( 248, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 287
+
+[node name="grass_patch_166" type="Sprite" parent="."]
+
+transform/pos = Vector2( 8, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 272
+
+[node name="grass_patch_167" type="Sprite" parent="."]
+
+transform/pos = Vector2( 24, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 273
+
+[node name="grass_patch_168" type="Sprite" parent="."]
+
+transform/pos = Vector2( 40, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 274
+
+[node name="grass_patch_105" type="Sprite" parent="."]
+
+transform/pos = Vector2( -152, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 210
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grass_patch_105"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_105/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_106" type="Sprite" parent="."]
+
+transform/pos = Vector2( -136, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 211
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grass_patch_106"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grass_patch_106/StaticBody2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="grass_patch_82" type="Sprite" parent="."]
+
+transform/pos = Vector2( 264, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 184
+
+[node name="snow_path_top_right" type="Sprite" parent="."]
+
+transform/pos = Vector2( -24, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 8
+
+[node name="snow_path_bottom_right" type="Sprite" parent="."]
+
+transform/pos = Vector2( -24, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 60
+
+[node name="snowed_path_top_left" type="Sprite" parent="."]
+
+transform/pos = Vector2( 8, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 10
+
+[node name="snowed_path_bottom_left" type="Sprite" parent="."]
+
+transform/pos = Vector2( 8, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 62
+
+[node name="snowed_path_top_right" type="Sprite" parent="."]
+
+transform/pos = Vector2( 24, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 11
+
+[node name="snowed_path_bottom_right" type="Sprite" parent="."]
+
+transform/pos = Vector2( 24, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 63
+
+[node name="grass_path_top_left" type="Sprite" parent="."]
+
+transform/pos = Vector2( 56, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 16
+
+[node name="grass_path_bottom_left" type="Sprite" parent="."]
+
+transform/pos = Vector2( 56, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 68
+
+[node name="grass_path_top_right" type="Sprite" parent="."]
+
+transform/pos = Vector2( 72, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 17
+
+[node name="grass_path_bottom_right" type="Sprite" parent="."]
+
+transform/pos = Vector2( 72, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 69
+
+[node name="stone_path_top_left" type="Sprite" parent="."]
+
+transform/pos = Vector2( 104, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 19
+
+[node name="stone_path_bottom_left" type="Sprite" parent="."]
+
+transform/pos = Vector2( 104, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 71
+
+[node name="stone_path_top_right" type="Sprite" parent="."]
+
+transform/pos = Vector2( 120, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 20
+
+[node name="stone_path_bottom_right" type="Sprite" parent="."]
+
+transform/pos = Vector2( 120, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 72
+
+[node name="mud_path_top_left" type="Sprite" parent="."]
+
+transform/pos = Vector2( 152, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 22
+
+[node name="mud_path_bottom_left" type="Sprite" parent="."]
+
+transform/pos = Vector2( 152, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 74
+
+[node name="mud_path_top_right" type="Sprite" parent="."]
+
+transform/pos = Vector2( 168, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 23
+
+[node name="mud_path_right" type="Sprite" parent="."]
+
+transform/pos = Vector2( 168, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 75
+
+[node name="sand_path_top_left" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 25
+
+[node name="sand_path_bottom_left" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 77
+
+[node name="sand_path_top_right" type="Sprite" parent="."]
+
+transform/pos = Vector2( 216, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 26
+
+[node name="sand_path_bottom_right" type="Sprite" parent="."]
+
+transform/pos = Vector2( 216, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 78
+
+[node name="water_path_top_left" type="Sprite" parent="."]
+
+transform/pos = Vector2( 248, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 28
+
+[node name="water_path_bottom_left" type="Sprite" parent="."]
+
+transform/pos = Vector2( 248, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 80
+
+[node name="water_path_top_right" type="Sprite" parent="."]
+
+transform/pos = Vector2( 264, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 29
+
+[node name="water_path_top_right1" type="Sprite" parent="."]
+
+transform/pos = Vector2( 264, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 81
+
+[node name="current_path_top_left" type="Sprite" parent="."]
+
+transform/pos = Vector2( 296, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 31
+
+[node name="current_path_top_left1" type="Sprite" parent="."]
+
+transform/pos = Vector2( 296, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 83
+
+[node name="current_path_top_right" type="Sprite" parent="."]
+
+transform/pos = Vector2( 312, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 32
+
+[node name="current_path_top_right1" type="Sprite" parent="."]
+
+transform/pos = Vector2( 312, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 32
+
+[node name="dark_grass_path_top_left" type="Sprite" parent="."]
+
+transform/pos = Vector2( 344, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 34
+
+[node name="dark_grass_path_top_left1" type="Sprite" parent="."]
+
+transform/pos = Vector2( 344, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 86
+
+[node name="dark_grass_path_top_right" type="Sprite" parent="."]
+
+transform/pos = Vector2( 360, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 35
+
+[node name="dark_grass_path_top_right1" type="Sprite" parent="."]
+
+transform/pos = Vector2( 360, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 87
+
+[node name="roof_path_top_left 2" type="Sprite" parent="."]
+
+transform/pos = Vector2( 392, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 37
+
+[node name="roof_path_top_left3" type="Sprite" parent="."]
+
+transform/pos = Vector2( 392, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 89
+
+[node name="roof_path_top_right" type="Sprite" parent="."]
+
+transform/pos = Vector2( 408, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 38
+
+[node name="roof_path_top_right1" type="Sprite" parent="."]
+
+transform/pos = Vector2( 408, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 90
+
+[node name="road_path_top_left" type="Sprite" parent="."]
+
+transform/pos = Vector2( 440, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 40
+
+[node name="road_path_top_left1" type="Sprite" parent="."]
+
+transform/pos = Vector2( 440, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 40
+
+[node name="round_road_path_top_left 2" type="Sprite" parent="."]
+
+transform/pos = Vector2( 440, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 40
+
+[node name="round_road_path_top_left3" type="Sprite" parent="."]
+
+transform/pos = Vector2( 440, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 92
+
+[node name="round_road_path_top_right" type="Sprite" parent="."]
+
+transform/pos = Vector2( 456, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 41
+
+[node name="round_road_path_top_right1" type="Sprite" parent="."]
+
+transform/pos = Vector2( 456, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 93
+
+[node name="angle_bricks_path_top_left" type="Sprite" parent="."]
+
+transform/pos = Vector2( 488, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 43
+
+[node name="angle_bricks_path_top_left1" type="Sprite" parent="."]
+
+transform/pos = Vector2( 488, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 95
+
+[node name="angle_bricks_path_top_right" type="Sprite" parent="."]
+
+transform/pos = Vector2( 504, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 44
+
+[node name="angle_bricks_path_top_right1" type="Sprite" parent="."]
+
+transform/pos = Vector2( 504, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 96
+
+[node name="dry_path_top_left" type="Sprite" parent="."]
+
+transform/pos = Vector2( 536, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 46
+
+[node name="dry_path_top_left1" type="Sprite" parent="."]
+
+transform/pos = Vector2( 536, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 98
+
+[node name="dry_path_top_right" type="Sprite" parent="."]
+
+transform/pos = Vector2( 552, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 47
+
+[node name="dry_path_top_right1" type="Sprite" parent="."]
+
+transform/pos = Vector2( 552, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 99
+
+[node name="marble_path_top_left" type="Sprite" parent="."]
+
+transform/pos = Vector2( 584, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 49
+
+[node name="marble_path_top_left1" type="Sprite" parent="."]
+
+transform/pos = Vector2( 584, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 101
+
+[node name="marble_path_top_right" type="Sprite" parent="."]
+
+transform/pos = Vector2( 600, -24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 50
+
+[node name="marble_path_top_right1" type="Sprite" parent="."]
+
+transform/pos = Vector2( 600, -8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 102
+
+

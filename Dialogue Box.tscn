@@ -1,0 +1,45 @@
+[gd_scene load_steps=4 format=1]
+
+[ext_resource path="res://sprites/dialogue.png" type="Texture" id=1]
+[ext_resource path="res://scripts/Dialogue Box.gd" type="Script" id=2]
+[ext_resource path="res://font.fnt" type="BitmapFont" id=3]
+
+[node name="Dialogue Box" type="Patch9Frame"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 34.0
+margin/bottom = 32.0
+texture = ExtResource( 1 )
+patch_margin/left = 17
+patch_margin/top = 5
+patch_margin/right = 17
+patch_margin/bottom = 5
+script/script = ExtResource( 2 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+
+rect/scale = Vector2( 0.2, 0.2 )
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 9.0
+margin/top = 8.0
+margin/right = 86.0
+margin/bottom = 87.0
+custom_fonts/mono_font = ExtResource( 3 )
+custom_fonts/bold_italics_font = ExtResource( 3 )
+custom_fonts/italics_font = ExtResource( 3 )
+custom_fonts/bold_font = ExtResource( 3 )
+custom_fonts/normal_font = ExtResource( 3 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode/enabled = false
+bbcode/bbcode = ""
+visible_characters = -1
+
+
