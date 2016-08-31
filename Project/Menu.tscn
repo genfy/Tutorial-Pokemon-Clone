@@ -1,0 +1,188 @@
+[gd_scene load_steps=5 format=1]
+
+[ext_resource path="res://sprites/menu.png" type="Texture" id=1]
+[ext_resource path="res://Menu.gd" type="Script" id=2]
+[ext_resource path="res://sprites/arrow.png" type="Texture" id=3]
+[ext_resource path="res://font.fnt" type="BitmapFont" id=4]
+
+[node name="Menu" type="Patch9Frame"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 41.0
+margin/bottom = 61.0
+texture = ExtResource( 1 )
+patch_margin/left = 8
+patch_margin/top = 8
+patch_margin/right = 8
+patch_margin/bottom = 8
+script/script = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+
+transform/pos = Vector2( 6.49692, 8.48819 )
+transform/scale = Vector2( 0.257375, 0.257375 )
+texture = ExtResource( 3 )
+
+[node name="Labels" type="Node2D" parent="."]
+
+transform/pos = Vector2( 27.6676, 40.8072 )
+transform/scale = Vector2( 0.853683, 1.2643 )
+
+[node name="Pokedex" type="Label" parent="Labels"]
+
+rect/scale = Vector2( 0.2, 0.2 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = -22.0
+margin/top = -29.0
+margin/right = 122.0
+margin/bottom = 1.0
+custom_fonts/font = ExtResource( 4 )
+custom_colors/font_color = Color( 0.636719, 0.636719, 0.636719, 1 )
+custom_colors/font_color_shadow = Color( 0.195313, 0.195313, 0.195313, 1 )
+text = "Pokedex"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Pokemon" type="Label" parent="Labels"]
+
+rect/scale = Vector2( 0.2, 0.2 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = -22.0
+margin/top = -24.0
+margin/right = 122.0
+margin/bottom = 6.0
+custom_fonts/font = ExtResource( 4 )
+custom_colors/font_color = Color( 0.636719, 0.636719, 0.636719, 1 )
+custom_colors/font_color_shadow = Color( 0.195313, 0.195313, 0.195313, 1 )
+text = "Pokemon"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Bag" type="Label" parent="Labels"]
+
+rect/scale = Vector2( 0.2, 0.2 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = -22.0
+margin/top = -19.0
+margin/right = 122.0
+margin/bottom = 11.0
+custom_fonts/font = ExtResource( 4 )
+custom_colors/font_color = Color( 0.636719, 0.636719, 0.636719, 1 )
+custom_colors/font_color_shadow = Color( 0.195313, 0.195313, 0.195313, 1 )
+text = "Bag"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Pokegear" type="Label" parent="Labels"]
+
+rect/scale = Vector2( 0.2, 0.2 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = -22.0
+margin/top = -14.0
+margin/right = 122.0
+margin/bottom = 16.0
+custom_fonts/font = ExtResource( 4 )
+custom_colors/font_color = Color( 0.636719, 0.636719, 0.636719, 1 )
+custom_colors/font_color_shadow = Color( 0.195313, 0.195313, 0.195313, 1 )
+text = "Pokegear"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Player" type="Label" parent="Labels"]
+
+rect/scale = Vector2( 0.2, 0.2 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = -22.0
+margin/top = -9.0
+margin/right = 130.0
+margin/bottom = 21.0
+custom_fonts/font = ExtResource( 4 )
+custom_colors/font_color = Color( 0.636719, 0.636719, 0.636719, 1 )
+custom_colors/font_color_shadow = Color( 0.195313, 0.195313, 0.195313, 1 )
+text = "Player"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Save" type="Label" parent="Labels"]
+
+rect/scale = Vector2( 0.2, 0.2 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = -22.0
+margin/top = -4.0
+margin/right = 130.0
+margin/bottom = 26.0
+custom_fonts/font = ExtResource( 4 )
+custom_colors/font_color = Color( 0.636719, 0.636719, 0.636719, 1 )
+custom_colors/font_color_shadow = Color( 0.195313, 0.195313, 0.195313, 1 )
+text = "Save"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Options" type="Label" parent="Labels"]
+
+rect/scale = Vector2( 0.2, 0.2 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = -22.0
+margin/top = 1.0
+margin/right = 130.0
+margin/bottom = 31.0
+custom_fonts/font = ExtResource( 4 )
+custom_colors/font_color = Color( 0.636719, 0.636719, 0.636719, 1 )
+custom_colors/font_color_shadow = Color( 0.195313, 0.195313, 0.195313, 1 )
+text = "Options"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Exit" type="Label" parent="Labels"]
+
+rect/scale = Vector2( 0.2, 0.2 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = -22.0
+margin/top = 6.0
+margin/right = 130.0
+margin/bottom = 36.0
+custom_fonts/font = ExtResource( 4 )
+custom_colors/font_color = Color( 0.636719, 0.636719, 0.636719, 1 )
+custom_colors/font_color_shadow = Color( 0.195313, 0.195313, 0.195313, 1 )
+text = "Exit"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+

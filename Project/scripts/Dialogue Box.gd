@@ -12,7 +12,7 @@ var textToPrint = []
 var currentChar = 0
 var currentText = 0
 
-const SPEED = 0.1
+const SPEED = 0.01
 
 func _ready():
 	set_fixed_process(true)

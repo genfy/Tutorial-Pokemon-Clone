@@ -6,7 +6,8 @@ var startPos = Vector2(0,0)
 var moving = false
 
 var canMove = true
-var pressed = false
+var interact = false
+var menu = false
 
 const SPEED = 1
 const GRID = 16
@@ -25,9 +26,13 @@ func _ready():
 
 func _input(event):
 	if event.is_action_pressed("ui_interact"):
-		pressed = true
+		interact = true
 	elif event.is_action_released("ui_interact"):
-		pressed = false
+		interact = false
+	if event.is_action_pressed("ui_menu"):
+		menu = true
+	elif event.is_action_released("ui_menu"):
+		menu = false
 
 func _fixed_process(delta):
 	if !moving and canMove:
@@ -65,7 +70,7 @@ func _fixed_process(delta):
 				startPos = get_pos()
 				animationPlayer.play("walk_right")
 		
-		if pressed:
+		if interact:
 			if sprite.get_frame() == 0:
 				interact(resultUp)
 			elif sprite.get_frame() == 6:
@@ -74,11 +79,16 @@ func _fixed_process(delta):
 				interact(resultLeft)
 			elif sprite.get_frame() == 9:
 				interact(resultRight)
+		
+		if menu and !interact:
+			get_node("Camera2D/Menu")._open_menu()
+		
 	elif canMove:
 		move_to(get_pos() + direction * SPEED)
 		if get_pos() == startPos + Vector2(GRID * direction.x, GRID * direction.y):
 			moving = false
-	pressed = false
+	interact = false
+	menu = false
 
 func interact(result):
 	for dictionary in result:
