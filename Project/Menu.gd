@@ -13,7 +13,7 @@ func _fixed_process(delta):
 		
 		if menu:
 			set_hidden(true)
-			get_node("/root/world/Player").canMove = true
+			get_tree().set_pause(false)
 			open = false
 		menu = false
 
@@ -26,6 +26,6 @@ func _unhandled_key_input(key_event):
 
 func _open_menu():
 	set_hidden(false)
-	get_node("/root/world/Player").canMove = false
+	get_tree().set_pause(true)
 	menu = false
 	open = true

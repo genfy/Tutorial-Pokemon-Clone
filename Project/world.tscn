@@ -180,6 +180,7 @@ margin/bottom = 143.0
 
 [node name="Menu" parent="Player/Camera2D" instance=ExtResource( 7 )]
 
+process/pause_mode = 2
 visibility/visible = false
 margin/left = 61.0
 margin/top = -60.0
