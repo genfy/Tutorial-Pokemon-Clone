@@ -19,8 +19,17 @@ func _ready():
 	pointer = get_node("Sprite")
 	pointer_update()
 
+func _handle_interaction():
+	if currentLabel == 0:
+		open = false
+		var node = load("res://Pokedex.tscn").instance()
+		get_node("/root/world").add_child(node)
+
 func _fixed_process(delta):
 	if open:
+		
+		if Input.is_action_pressed("ui_interact"):
+			_handle_interaction()
 		
 		if menu:
 			set_hidden(true)

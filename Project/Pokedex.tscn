@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=1]
+
+[ext_resource path="res://icon.png" type="Texture" id=1]
+
+[node name="Pokedex" type="Node2D"]
+
+process/pause_mode = 2
+
+[node name="Sprite" type="Sprite" parent="."]
+
+transform/pos = Vector2( 0.696519, -10.3327 )
+transform/scale = Vector2( 0.88902, 0.955575 )
+texture = ExtResource( 1 )
+
+
