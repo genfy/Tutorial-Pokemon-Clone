@@ -22,7 +22,7 @@ func _ready():
 func _handle_interaction():
 	if currentLabel == 0:
 		open = false
-		var node = load("res://Pokedex.tscn").instance()
+		var node = preload("res://Pokedex.tscn").instance()
 		get_node("/root/world").add_child(node)
 
 func _fixed_process(delta):
