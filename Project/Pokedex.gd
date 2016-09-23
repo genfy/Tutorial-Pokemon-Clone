@@ -14,13 +14,17 @@ var currentItem = 0
 func _ready():
 	var pokedexItem = load("res://PokedexItem.tscn")
 	pokedexHolder = get_node("PokedexItems")
-	var x = 300
-	var y = 300
+	var x = 0
+	var y = 0
+	
+	get_node("Name").set_text(singleton.pokemon[0].Name)
+	get_node("Type").set_text(singleton.pokemon[0].Type)
+	
 	for i in singleton.pokemon:
 		var node = pokedexItem.instance()
 		
 		node.set_pos(Vector2(x,y))
-		node.get_node("Label").set_text(i)
+		node.get_node("Label").set_text(i.Name)
 		pokedexHolder.add_child(node)
 		y+=42+10
 	
@@ -42,16 +46,16 @@ func _unhandled_key_input(key_event):
 		up = false
 
 func _process(delta):
-	if down:
-		pokedexHolder.set_pos(pokedexHolder.get_pos() + Vector2(0, 52))
-		currentItem += 1
-		if currentItem >= singleton.pokemon.size():
-			currentItem = 0
-	elif up:
+	if up and currentItem < singleton.pokemon.size() - 1:
 		pokedexHolder.set_pos(pokedexHolder.get_pos() + Vector2(0, -52))
+		currentItem += 1
+		get_node("Name").set_text(singleton.pokemon[currentItem].Name)
+		get_node("Type").set_text(singleton.pokemon[currentItem].Type)
+	elif down and currentItem > 0:
+		pokedexHolder.set_pos(pokedexHolder.get_pos() + Vector2(0, 52))
 		currentItem -= 1
-		if currentItem < 0:
-			currentItem = singleton.pokemon.size() - 1
+		get_node("Name").set_text(singleton.pokemon[currentItem].Name)
+		get_node("Type").set_text(singleton.pokemon[currentItem].Type)
 	if menu:
 		get_node("/root/world/Player/Camera2D/Menu").open = true
 		queue_free()

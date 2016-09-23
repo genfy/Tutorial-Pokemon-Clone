@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=1]
+[gd_scene load_steps=4 format=1]
 
 [ext_resource path="res://Pokedex.gd" type="Script" id=1]
 [ext_resource path="res://sprites/test.png" type="Texture" id=2]
+[ext_resource path="res://font.fnt" type="BitmapFont" id=3]
 
 [node name="Pokedex" type="CanvasLayer"]
 
@@ -20,5 +21,47 @@ texture = ExtResource( 2 )
 modulate = Color( 0.111084, 0.542229, 0.710938, 1 )
 
 [node name="PokedexItems" type="Node2D" parent="."]
+
+transform/pos = Vector2( 465.765, 280.363 )
+
+[node name="Name" type="Label" parent="."]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 51.0
+margin/top = 68.0
+margin/right = 128.0
+margin/bottom = 95.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+text = "Test"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Type" type="Label" parent="."]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 51.0
+margin/top = 103.0
+margin/right = 128.0
+margin/bottom = 130.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+text = "Test"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
 
 
