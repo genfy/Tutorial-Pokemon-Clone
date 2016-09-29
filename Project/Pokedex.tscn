@@ -1,8 +1,10 @@
-[gd_scene load_steps=4 format=1]
+[gd_scene load_steps=6 format=1]
 
 [ext_resource path="res://Pokedex.gd" type="Script" id=1]
 [ext_resource path="res://sprites/test.png" type="Texture" id=2]
 [ext_resource path="res://font.fnt" type="BitmapFont" id=3]
+[ext_resource path="res://sprites/spritesheet.png" type="Texture" id=4]
+[ext_resource path="res://sprites/selected.png" type="Texture" id=5]
 
 [node name="Pokedex" type="CanvasLayer"]
 
@@ -63,5 +65,28 @@ valign = 1
 percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
+
+[node name="PokemonImage" type="Sprite" parent="."]
+
+transform/pos = Vector2( 89.6007, 316.475 )
+texture = ExtResource( 4 )
+vframes = 21
+hframes = 8
+
+[node name="Patch9Frame" type="Patch9Frame" parent="."]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 465.765
+margin/top = 280.363
+margin/right = 684.765
+margin/bottom = 322.363
+texture = ExtResource( 5 )
+patch_margin/left = 17
+patch_margin/top = 5
+patch_margin/right = 17
+patch_margin/bottom = 5
 
 

@@ -51,11 +51,13 @@ func _process(delta):
 		currentItem += 1
 		get_node("Name").set_text(singleton.pokemon[currentItem].Name)
 		get_node("Type").set_text(singleton.pokemon[currentItem].Type)
+		get_node("PokemonImage").set_frame(singleton.pokemon[currentItem].Tile);
 	elif down and currentItem > 0:
 		pokedexHolder.set_pos(pokedexHolder.get_pos() + Vector2(0, 52))
 		currentItem -= 1
 		get_node("Name").set_text(singleton.pokemon[currentItem].Name)
 		get_node("Type").set_text(singleton.pokemon[currentItem].Type)
+		get_node("PokemonImage").set_frame(singleton.pokemon[currentItem].Tile);
 	if menu:
 		get_node("/root/world/Player/Camera2D/Menu").open = true
 		queue_free()
