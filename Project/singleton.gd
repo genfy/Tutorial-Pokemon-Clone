@@ -2,7 +2,7 @@
 extends Node
 
 var pokemon = [createPokemonData("Pikachu", "Electric", 3),createPokemonData("Charizard", "Fire",4),createPokemonData("Squirtle", "Water",5),createPokemonData("Meowth", "Normal",8)]
-var inventory = [createCurrentInventoryItem("Ball", "res://icon.png", "A small ball", 0)]
+var inventory = [createCreateInventoryItem("Ball", "res://icon.png", "A small ball", 0)]
 
 func createPokemonData(_Name, _Type, _Tile):
 	return {Name = _Name, Type = _Type, Tile = _Tile}

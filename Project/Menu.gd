@@ -24,6 +24,10 @@ func _handle_interaction():
 		open = false
 		var node = preload("res://Pokedex.tscn").instance()
 		get_node("/root/world").add_child(node)
+	elif currentLabel == 2:
+		open = false
+		var node = preload("res://Inventory.tscn").instance()
+		get_node("/root/world").add_child(node)
 
 func _fixed_process(delta):
 	if open:
