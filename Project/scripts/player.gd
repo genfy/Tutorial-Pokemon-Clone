@@ -9,6 +9,8 @@ var canMove = true
 var interact = false
 var menu = false
 
+var inGrass = false
+
 const SPEED = 1
 const GRID = 16
 
@@ -34,6 +36,12 @@ func _input(event):
 	elif event.is_action_released("ui_menu"):
 		menu = false
 
+var probability = 50
+func checkEncounter():
+	var random = randi() % 100
+	if random > probability:
+		print("ENCOUNTER!")
+
 func _fixed_process(delta):
 	if !moving and canMove:
 		var resultUp = world.intersect_point(get_pos() + Vector2(0, -GRID))
@@ -48,6 +56,8 @@ func _fixed_process(delta):
 					direction = Vector2(0, -1)
 					startPos = get_pos()
 					animationPlayer.play("walk_up")
+					if inGrass:
+						checkEncounter()
 		elif Input.is_action_pressed("ui_down"):
 			sprite.set_frame(6)
 			if resultDown.empty():
@@ -55,6 +65,8 @@ func _fixed_process(delta):
 				direction = Vector2(0, 1)
 				startPos = get_pos()
 				animationPlayer.play("walk_down")
+				if inGrass:
+					checkEncounter()
 		elif Input.is_action_pressed("ui_left"):
 			sprite.set_frame(3)
 			if resultLeft.empty():
@@ -62,6 +74,8 @@ func _fixed_process(delta):
 				direction = Vector2(-1, 0)
 				startPos = get_pos()
 				animationPlayer.play("walk_left")
+				if inGrass:
+					checkEncounter()
 		elif Input.is_action_pressed("ui_right"):
 			sprite.set_frame(9)
 			if resultRight.empty():
@@ -69,6 +83,8 @@ func _fixed_process(delta):
 				direction = Vector2(1, 0)
 				startPos = get_pos()
 				animationPlayer.play("walk_right")
+				if inGrass:
+					checkEncounter()
 		
 		if interact:
 			if sprite.get_frame() == 0:
